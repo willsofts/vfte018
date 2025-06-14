@@ -6,6 +6,7 @@ body {
 	background-position: top center;
 	background-color: #E7F7F7;
 }
+a { text-decoration: none; }
 .portalbody-on { margin-top: 50px; }
 .portalbody-off { margin-top: 0px; }
 
@@ -98,7 +99,7 @@ label:active + textarea {
 	color: #FFFFFF;
 	border: 1px solid #028575;
 	background-color: #028575;		
-	width: 90px;
+	min-width: 90px;
 }
 .btn-spot:hover,
 .btn-spot:focus,
@@ -114,7 +115,7 @@ label:active + textarea {
 	color: #FFFFFF;
 	border: 1px solid #028575;
 	background-color: #028575;	
-	width: 90px;
+	min-width: 90px;
 }
 .btn-dark:hover,
 .btn-dark:focus,
@@ -126,34 +127,6 @@ label:active + textarea {
  color: #FFFFFF;
 }
 button.btn-dark:hover {  box-shadow: 2px 2px 2px gray; }
-.btn-primary {
-	color: #FFFFFF;
-	border: 1px solid #028575;
-	background-color: #028575;	
-}
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primay:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-	background-color: #00B29D;
-	font-weight: normal; 
-	color: #FFFFFF;	
-}
-.btn-secondary {
-	color: #FFFFFF;
-	border: 1px solid #028575;
-	background-color: #028575;	
-}
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active,
-.btn-secondary.active,
-.open > .dropdown-toggle.btn-primary {
-	background-color: #00B29D;
-	font-weight: normal; 
-	color: #FFFFFF;	
-}
 .portal-area-layer { padding-bottom: 2px; }
 .portal-table { background-color: ghostwhite; }
 .portal-table thead tr { height: 30px; }
@@ -385,3 +358,6 @@ a:hover { text-decoration: none; }
 .img-lang-KM { content: url(../img/lang/KM.png); }
 .img-lang-LA { content: url(../img/lang/LA.png); }
 .img-lang-JP { content: url(../img/lang/JP.png); }
+div.date-control { padding-right: 0px; display: flex; }
+.table td, .table th { padding: .5rem .5rem; }
+#app { display: flex; flex-direction: column; }

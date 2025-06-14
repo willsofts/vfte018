@@ -12,7 +12,7 @@
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
     "@willsofts/will-app": "^1.0.34",
-    "@willsofts/will-control": "^1.0.28",
+    "@willsofts/will-control": "^1.0.29",
     "bootbox": "^6.0.0",
     "bootstrap": "^4.6.0",
     "core-js": "^3.8.3",

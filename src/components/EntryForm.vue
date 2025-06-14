@@ -52,7 +52,7 @@
     <template v-slot:footer>
       <button ref="savebutton" id="savebutton" class="btn btn-dark btn-sm" @click="saveClick" v-show="displayMode"><em class="fa fa-save fa-btn-icon"></em>{{ labels.save_button }}</button>
       <button ref="updatebutton" id="updatebutton" class="btn btn-dark btn-sm" @click="updateClick" v-if="updateMode"><em class="fa fa-save fa-btn-icon"></em>{{ labels.update_button }}</button>
-      <button class="btn btn-dark btn-sm" data-dismiss="modal"><em class="fa fa-close fa-btn-icon"></em>{{ labels.cancel_button }}</button>
+      <button id="canceldialogbutton" class="btn btn-dark btn-sm" data-dismiss="modal"><em class="fa fa-close fa-btn-icon"></em>{{ labels.cancel_button }}</button>
     </template>
   </DialogForm>
 </template>
