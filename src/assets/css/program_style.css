@@ -105,3 +105,16 @@ div.fa-list-panel { margin-top: 8px; }
 .fa-no-wraper { white-space: nowrap; }
 .fa-boxer { display: flex; align-items: center; justify-content: center; }
 .fa-partition-toggle { margin-left: 2px; margin-right: 2px; }
+
+button.btn-closing:before { 
+	font-family: FontAwesome;
+	content: "\f00d";
+	color: black;	
+}
+button.btn-close:before { 
+	font-family: FontAwesome;
+	content: "\f00d";	
+	color: black;
+}
+button.close { color: white; }
+button.close:hover { color: white; }
