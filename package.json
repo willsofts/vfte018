@@ -11,7 +11,7 @@
   "dependencies": {
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
-    "@willsofts/will-app": "^1.0.42",
+    "@willsofts/will-app": "^1.0.45",
     "@willsofts/will-control": "^1.0.29",
     "bootbox": "^6.0.0",
     "bootstrap": "^4.6.0",
