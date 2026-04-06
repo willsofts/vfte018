@@ -44,7 +44,7 @@ export default {
         if(data.type=="language") {
           let lang = data.language;
           if(lang) {
-            this.changeLanguage(lang);
+            this.$refs.pageHeader.changeLanguage(lang);
           }
         } else {
           this.multiLanguages = getMultiLanguagesModel();
